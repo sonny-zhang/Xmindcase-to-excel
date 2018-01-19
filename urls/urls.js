@@ -36,5 +36,5 @@ app.use(koaBody({ multipart: true }));
 app.use(route.post('/xmd-to-exc', upload));
 
 
-//app.listen(3000);
-//console.log('app started at port 3000...');
+app.listen(3000);
+console.log('app started at port 3000...');
