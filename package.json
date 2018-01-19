@@ -17,7 +17,6 @@
         "url": "https://github.com/michaelliao/learn-javascript.git"
     },
     "dependencies": {
-        "fs": "0.0.1",
         "koa": "2.0.0",
         "koa-body": "^2.5.0",
         "koa-route": "^3.2.0",

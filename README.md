@@ -8,5 +8,7 @@ Xmind用例转化为Excel表
 2，下载后再该目录运行cmd命令：npm install
 3，xmind用例的格式，请用：app.xmind模板
 
+
 使用：
-cmd运行urls文件夹里的urls.js文件：cmd -》 node 文件路径
+1，cmd运行urls文件夹里的urls.js文件：cmd -》 node 文件路径
+2，在xmd_exc-》excel文件夹下，获得Excel文件

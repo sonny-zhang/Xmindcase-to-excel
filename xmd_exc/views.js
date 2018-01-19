@@ -36,12 +36,12 @@ var upload =  async function(ctx, next) {
     let result = xmind2excel.x2e(xmindFile, excelFile)
     console.log('RESULT:' + result)
     ctx.attachment(fileName);
-    await send(ctx, fileName, { root: __dirname + '/usersfile/excel' });
+    //await send(ctx, fileName, { root: __dirname + '/usersfile/excel' });
   });
-  await sleep(15000)
+  await sleep(5000)
   fs.unlink(xmindFile, callback);
-  fs.unlink(excelFile, callback);
-  //ctx.redirect('/');
+  //fs.unlink(excelFile, callback);
+  ctx.redirect('/');
 };
 
 module.exports = upload;
